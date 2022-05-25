@@ -1,0 +1,12 @@
+@media (max-width: 768px){
+    nav{
+        width: 100%;
+        left: -100%;
+    }
+    main{
+        padding: 40px 16px 0px 16px;
+    }
+    .showcase__img img{
+        margin: 10px 0px;
+    }
+}

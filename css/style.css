@@ -1,0 +1,231 @@
+body{
+    font-family: tahoma;
+    height: 3000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #45015d;
+    border-radius: 5px;
+}
+nav{
+    background-color: #45015d;
+    width: 220px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    padding-top: 30px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+}
+nav h3{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+nav a{
+    display: block;
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+nav a:hover{
+    background-color: white;
+    color: #45015d;
+}
+main{
+    padding: 80px 40px 0 360px;
+}
+h1{
+    color: black;
+    font-size: 56px;
+}
+.hamburger{
+    width: 40px;
+    height: 20px;
+    position: fixed;
+    z-index: 10;
+    background: transparent;
+    display: none;
+}
+.hamburger span{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #45015d;
+    position: absolute;
+    box-shadow: 0 0 10px 5px white  ;
+}
+.hamburger span:nth-child(1){
+    top: 0px;
+}
+.hamburger span:nth-child(2){
+    top: 9px;
+}
+.hamburger span:nth-child(3){
+    bottom: 0px ;
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    font-size: 40px;
+    color: #45015d;
+    margin-bottom: 32px;
+}
+hr{
+    width: 100%;
+    height: 8px;
+    background-color: #45015d;
+    border-radius: 10px;
+     margin-bottom: 30px;
+}
+.showcase__img img{
+    width: 48%;
+    margin: 10px;
+    border-radius: 10px;
+    opacity: 70%;
+    transition: 0.4s;
+    min-width: 280px;
+}
+.showcase__img img:hover{
+    opacity: 100%;
+    transition: 0.4s;
+}
+.showcase__img{
+text-align: center;
+}
+p{
+    font-size: 16px;
+    line-height: 150%;
+}
+.designes__item{
+    width: 30%;
+    min-width: 280px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.designes__item img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.designer__info{
+    background: rgb(193, 198, 203);
+    border-radius: 10px;
+    padding: 14px 8px 14px 8px;
+}
+.designer__info h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.designer__info span{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.designer__info p{
+    font-size: 16px;
+}
+.designers__list{
+    text-align: center;
+    margin-top: 32px;
+}
+ul{
+    background: #e7e7e7;
+    width: 45%;
+    border-radius: 10px ;
+    text-align: center;
+    display: inline-block;
+    min-width: 280px;
+    margin-bottom: 16px;
+}
+li{
+    border-bottom: 1px solid gray;
+    border-radius: 6px ;
+    padding: 16px 0 16px 0;
+}
+.name{
+    background-color: #45015d;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 24px 0 24px 0 ;
+}
+.cost{
+    font-size: 20px;
+}
+.cost span{
+    display: block;
+    font-size: 14px;
+    color: gray ;
+}
+.packages__list button{
+    background-color: #45015d;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 16px ;
+    transition: 0.4s;
+}
+.packages__list button:hover{
+    background-color: green;
+}
+.packages__list{
+    text-align: center;
+}
+.packages__text{
+    margin-bottom: 32px;
+}
+.packages__list .orang{
+    background: orange;
+}
+input,textarea{
+    width: 100%;
+    border: 1px solid #45015d;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: 0.5s;
+    margin-bottom: 16px;
+    resize: none;
+}
+label{
+    margin-bottom: 6px;
+    display: inline-block;
+}
+input:focus,textarea:focus{
+    box-shadow: 0 0 6px #45015d;
+}
+form button{
+    width: 100%;
+    border: 1px solid #45015d;
+    background: #45015d;
+    padding: 16px ;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+form button:hover{
+    background-color: #ffffff;
+    color: #45015d;
+}
+footer{
+    background-color: #45015d;
+    padding: 40px 16px;
+    font-size: 16px;
+    color: #e7e7e7;
+    z-index: 15;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}

@@ -1,0 +1,30 @@
+@media (max-width: 768px){
+    nav{
+        width: 100%;
+        left: -100%;
+        transition: 0.4s;
+    }
+    .nav_active{
+        left: 0%;
+    }
+    main{
+        padding: 40px 16px 0px 16px;
+    }
+    .showcase__img img{
+        margin: 10px 0px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger_active span:nth-child(1){
+        top: 9px;
+        transform: rotate(45deg);
+    }
+    .hamburger_active span:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger_active span:nth-child(3){
+        bottom: 9px;
+        transform: rotate(-45deg);
+    }
+}
